@@ -2,6 +2,7 @@
 name: Test and build docker image on push
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
